@@ -1,4 +1,4 @@
-object Q5 {
+object q5 {
 
   def reverseList[A](ls: List[A]): List[A] = ls match {
     case Nil       => Nil
