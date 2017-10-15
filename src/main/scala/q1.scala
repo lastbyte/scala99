@@ -1,3 +1,6 @@
+//Example:
+//scala> last(List(1, 1, 2, 3, 5, 8))
+//res0: Int = 8
 object q1 {
   def lastBuiltIn[A](ls: List[A]) : A = ls.last
 

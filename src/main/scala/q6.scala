@@ -1,3 +1,6 @@
+//Example:
+//scala> isPalindrome(List(1, 2, 3, 2, 1))
+//res0: Boolean = true
 object q6 {
 
   def isplaindrome[A](ls:List[A]): Boolean = ls match{
