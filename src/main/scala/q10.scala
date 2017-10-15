@@ -6,7 +6,7 @@
 object q10 {
 
   def lengthEncoding[A](ls:List[A]):List[(A,Int)] = {
-    q9.consecutiveDuplicateSubList(ls) map{ e => (e.head , e.length) }
+    q09.consecutiveDuplicateSubList(ls) map{ e => (e.head , e.length) }
   }
 
   def main(args: Array[String]): Unit = {

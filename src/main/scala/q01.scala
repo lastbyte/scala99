@@ -1,7 +1,7 @@
 //Example:
 //scala> last(List(1, 1, 2, 3, 5, 8))
 //res0: Int = 8
-object q1 {
+object q01 {
   def lastBuiltIn[A](ls: List[A]) : A = ls.last
 
 

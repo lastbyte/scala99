@@ -1,7 +1,7 @@
 //Example:
 //scala> penultimate(List(1, 1, 2, 3, 5, 8))
 //res0: Int = 5
-object q2 {
+object q02 {
   def secondLast[A](ls:List[A]):A = ls match {
     case h :: _    :: Nil => h
     case _ :: tail        => secondLast(tail)

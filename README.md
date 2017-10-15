@@ -6,33 +6,33 @@
 <ol>
 <!--<li><a href="https://github.com/knp069/scala99/blob/master/src/main/scala/q1.scala"></a></li>-->
 <li>
-    <a href="https://github.com/knp069/scala99/blob/master/src/main/scala/q1.scala">Find the last element of a List</a>
+    <a href="https://github.com/knp069/scala99/blob/master/src/main/scala/q01.scala">Find the last element of a List</a>
     <p>Example:<br>
        scala> last(List(1, 1, 2, 3, 5, 8))<br>
        res0: Int = 8<br>
 </li>
 <li>
-    <a href="https://github.com/knp069/scala99/blob/master/src/main/scala/q2.scala">Find the last but one element of the List</a>
+    <a href="https://github.com/knp069/scala99/blob/master/src/main/scala/q02.scala">Find the last but one element of the List</a>
     <p>Example:<br>
        scala> secondLast(List(1, 1, 2, 3, 5, 8))<br>
        res0: Int = 5<br>
     </p>
 </li>
 <li>
-<a href="https://github.com/knp069/scala99/blob/master/src/main/scala/q3.scala">Find the K<sup>th</sup> element of the List</a>
+<a href="https://github.com/knp069/scala99/blob/master/src/main/scala/q03.scala">Find the K<sup>th</sup> element of the List</a>
 <p>Example:<br>
    
    scala> nth(2, List(1, 1, 2, 3, 5, 8))<br>
    res0: Int = 2</p>
 </li>
 <li>
-<a href="https://github.com/knp069/scala99/blob/master/src/main/scala/q4.scala">Find the number of element of the List</a>
+<a href="https://github.com/knp069/scala99/blob/master/src/main/scala/q04.scala">Find the number of element of the List</a>
 <p>Example:<br>
    scala> length(List(1, 1, 2, 3, 5, 8))<br>
    res0: Int = 6</p>
 </li>
 <li>
-<a href="https://github.com/knp069/scala99/blob/master/src/main/scala/q5.scala">Reverse a List</a>
+<a href="https://github.com/knp069/scala99/blob/master/src/main/scala/q05.scala">Reverse a List</a>
     <p>
     Example:<br>
     scala> reverse(List(1, 1, 2, 3, 5, 8))<br>
@@ -40,7 +40,7 @@
     </p>
 </li>
 <li>
-<a href="https://github.com/knp069/scala99/blob/master/src/main/scala/q6.scala">Find whether a List is a plindrome</a>
+<a href="https://github.com/knp069/scala99/blob/master/src/main/scala/q06.scala">Find whether a List is a plindrome</a>
 <p>Example:<br>
    scala> isPalindrome(List(1, 2, 3, 2, 1))<br>
    res0: Boolean = true
@@ -48,7 +48,7 @@
 
 </li>
 <li>
-<a href="https://github.com/knp069/scala99/blob/master/src/main/scala/q7.scala">Flatten a nested list structure</a>
+<a href="https://github.com/knp069/scala99/blob/master/src/main/scala/q07.scala">Flatten a nested list structure</a>
 <p>
 Example:<br>
 scala> flatten(List(List(1, 1), 2, List(3, List(5, 8))))<br>
@@ -56,7 +56,7 @@ res0: List[Any] = List(1, 1, 2, 3, 5, 8)<br>
 </p>
 </li>
 <li>
-<a href="https://github.com/knp069/scala99/blob/master/src/main/scala/q8.scala">Eliminate consecutive duplicates od list element</a>
+<a href="https://github.com/knp069/scala99/blob/master/src/main/scala/q08.scala">Eliminate consecutive duplicates od list element</a>
 <p>
 If a list contains repeated elements they should be replaced with a single copy of the element. The order of the elements should not be changed.<br>
 Example:<br>
@@ -66,7 +66,7 @@ res0: List\[Symbol] = List('a, 'b, 'c, 'a, 'd, 'e)<br>
 </p>
 </li>
 <li>
-<a href="https://github.com/knp069/scala99/blob/master/src/main/scala/q9.scala">Pack consecutive duplicates of list elements into sublists</a>
+<a href="https://github.com/knp069/scala99/blob/master/src/main/scala/q09.scala">Pack consecutive duplicates of list elements into sublists</a>
 <p>If a list contains repeated elements they should be placed in separate sublists.<br>
 Example:<br>
    scala> pack(List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e))<br>
