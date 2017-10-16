@@ -8,6 +8,6 @@ object q21 {
 
   def main(args: Array[String]): Unit = {
     val ls = List(1,2,3,5,6,7)
-    println("List after inserting element : " + insertAt(4,3,ls))
+    println("List after inserting element at position 4 : " + insertAt(4,3,ls))
   }
 }
