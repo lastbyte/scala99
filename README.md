@@ -98,4 +98,13 @@
             <br>res0: List[Symbol] = List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e)
         </p>
     </li>
+    <li>
+            <a href="https://github.com/knp069/scala99/blob/master/src/main/scala/q13.scala">Run-length encoding of a list (direct solution)</a>
+            <p>
+                Implement the so-called run-length encoding data compression method directly. I.e. don't use other methods you've written (like P09's pack); do all the work directly. 
+                <br>Example:
+                <br>scala> encodeDirect(List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e))
+                <br>res0: List[(Int, Symbol)] = List((4,'a), (1,'b), (2,'c), (2,'a), (1,'d), (4,'e))
+            </p>
+        </li>
 </ol>
