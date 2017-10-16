@@ -1,6 +1,6 @@
 object q14 {
   def duplicate[A](ls: List[A]):List[A] = {
-    ls flatMap{ e => List.make(2,e)}
+    ls flatMap{ e => List.fill(2)(e)}
   }
 
   def main(args: Array[String]): Unit = {

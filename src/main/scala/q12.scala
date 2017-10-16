@@ -8,7 +8,8 @@
 object q12 {
 
     def decode[A](ls: List[(A,Int)]):List[A] = {
-      ls flatMap{ e => List.make(e._2,e._1)}
+      ls flatMap{ e =>  ls
+        List.fill(e._2)(e._1)}
     }
 
     def main(args: Array[String]): Unit = {
